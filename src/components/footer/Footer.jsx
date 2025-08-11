@@ -15,11 +15,11 @@ export default function Footer() {
             <span className='text-sm text-gray-400 block w-full text-center sm:text-center md:text-left '>
                 © 2025 Alison James. All Rights Reserved.</span>
 
-                <ul className='flex justify-center text-center items-center mt-3 text-sm font-medium text-gray-400 sm:mt-0'>
+                <ul className='flex flex-wrap justify-center text-center items-center mt-3 text-sm font-medium text-gray-400 sm:mt-0'>
 
                     {listNavbar.map((item) => (
                         <li key={item.name}>
-                            <a href={item.link} className='hover:text-orange-400 mx-4 md:mx-6'>
+                            <a href={item.link} className='hover:text-orange-400 mx-2 sm:mx-4 md:mx-6'>
                                 {item.name}
                             </a>
                         </li>
