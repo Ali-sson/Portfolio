@@ -19,7 +19,7 @@ export default function Footer() {
 
                     {listNavbar.map((item) => (
                         <li key={item.name}>
-                            <a href={item.link} className='hover:text-orange-400 mx-2 sm:mx-4 md:mx-6'>
+                            <a href={item.link} className='hover:text-orange-400 mx-2 sm:mx-4 md:mx-5'>
                                 {item.name}
                             </a>
                         </li>
