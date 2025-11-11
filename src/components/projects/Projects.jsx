@@ -6,16 +6,20 @@ import image1 from '../../assets/image1.webp';
 import image2 from '../../assets/image2.webp';
 import image3 from '../../assets/image3.webp';
 import image4 from '../../assets/image4.webp';
+import Schrondinger from '../../assets/Schrondinger.png';
+import Sarki from '../../assets/Sarki.png';
+import Alifirm from '../../assets/Alifirm.png';
 
 
 export default function Projects() {
     const listProjects =[
-        {id:1, image:image1, title:'Project 1', description:'Photo description for project '},
-         {id:2, image:image2, title:'Project 2', description:'Photo description for project '},
-          {id:3, image:image3, title:'Project 3', description:'Photo description for project '},
-           {id:4, image:image4, title:'Project 4', description:'Photo description for project '}
+        {id:1, image:Schrondinger, title:'Schrondinger Technologie', description:'https://ali-sson.github.io/Schrondingertech-ltd/ '},
+         {id:2, image:Sarki, title:'Minister Website', description:'https://ali-sson.github.io/M.Y.Sarki/ '},
+          {id:3, image:Alifirm, title:'Ali Firm', description:'https://ali-sson.github.io/Ali-Firm/ '},
+        //    {id:4, image:image4, title:'Project 4', description:'Photo description for project '}
 
     ];
+
 
     const settings ={ 
         dots: true,
@@ -33,7 +37,7 @@ export default function Projects() {
 
     };
   return (
-   <section  id='projects'  data-aos='fade-up' data-aos-delay='400'className='relative overflow-hidden flex flex-col text-white body-font   '>
+   <section  id='Projects'  data-aos='fade-up' data-aos-delay='400'className='relative overflow-hidden flex flex-col text-white body-font   '>
      <div className='container px-5 py-24 mx-auto'>
         <h2 className='text-4xl font-bold text-center mb-12'>My Projects</h2>
         <Slider {...settings}>
@@ -45,7 +49,13 @@ export default function Projects() {
                             <img src={project.image} alt="" className='w-full h-auto lg:h-40 md:h-36 sm:h-24 object-cover object-center '/>
                             <div className='p-6'>
                             <h2 className='tracking-widest text-xl title-font font-medium text-gray-400 mb-1'>{project.title}</h2>
-                            <p className='leading-relaxed'>{project.description}</p>
+                    <a
+            href={project.description}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Visit Website
+          </a>
 
                         </div>
 

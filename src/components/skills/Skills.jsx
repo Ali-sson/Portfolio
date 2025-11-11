@@ -8,10 +8,11 @@ import tailwind from '../../assets/tailwind.png'
 import git from '../../assets/git.png'
 
 
+
 export default function Skills() {
   return (
     <section id='skills' className='relative overflow-hidden flex flex-col text-white body-font'>
-        <div className=' container flex flex-wrap px-5 py-24 mx-auto items-center'>
+        <div className=' container flex flex-wrap px-4 py-24 mx-auto items-center'>
           <div 
           data-aos='fade-up'
             data-aos-delay='250'
@@ -27,22 +28,22 @@ export default function Skills() {
             <div data-aos='fade-left' data-aos-delay='500' className='flex flex-col md:w 1/2 md:pl-12 '>
              <nav className='flex flex-wrap list-none mb-1'>
                 <li className='lg:w-1/3 mb-4 w-1/2'>
-                    <img src={html} alt="" className=' rounded-full w-24 h-24 object-cover' />
+                    <img src={html} alt="" className=' rounded-full w-20 h-20 object-cover' />
                 </li>
                  <li className='lg:w-1/3 mb-4 w-1/2'>
-                    <img src={css} alt="" className=' rounded-full w-24 h-24 object-cover' />
+                    <img src={css} alt="" className=' rounded-full w-20 h-20 object-cover' />
                 </li>
                  <li className='lg:w-1/3 mb-4 w-1/2'>
-                    <img src={js} alt="" className=' rounded-full w-24 h-24 object-cover' />
+                    <img src={js} alt="" className=' rounded-full w-20 h-20 object-cover' />
                 </li>
                  <li className='lg:w-1/3 mb-4 w-1/2'>
-                    <img src={react} alt="" className=' rounded-full w-24 h-24 object-cover' />
+                    <img src={react} alt="" className=' rounded-full w-20 h-20 object-cover' />
                 </li>
                   <li className='lg:w-1/3 mb-4 w-1/2'>
-                      <img src={tailwind} alt="" className=' rounded-full w-24 h-24 object-cover' />
+                      <img src={tailwind} alt="" className=' rounded-full w-20 h-20 object-cover' />
                     </li>
                   <li className='lg:w-1/3 mb-4 w-1/2'>
-                      <img src={git} alt="" className=' rounded-full w-24 h-24 object-cover' />
+                      <img src={git} alt="" className=' rounded-full w-20 h-20 object-cover' />
                   </li>
              </nav>
 </div>

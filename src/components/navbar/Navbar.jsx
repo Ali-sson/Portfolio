@@ -5,8 +5,8 @@ export default function Navbar() {
         { name: "Home", link: "#home" },
         { name: "Skills", link: "#skills" },
         { name: "Experience", link: "#experience" },
-        { name: "Languages", link: "#language" },
-         { name: "Project", link: "#project" },
+        { name: "Languages", link: "#languages" },
+         { name: "Project", link: "#projects" },
 
     ];
   return (
