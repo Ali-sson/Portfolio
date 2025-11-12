@@ -5,12 +5,13 @@ export default function Contact() {
     <section id='contact'>
         <div className='py-8 lg:py-16 mx-auto max-w-screen-md px-9 md:px-8'>
             <h2 className='mb-4 text-4xl tracking-tight font-extrabold text-center text-white'>Contact Me</h2>
-          <form action="https://formspree.io/f/movqynzd"  // your unique Formspree endpoint
-        method="POST"
+          <form action="https://formspree.io/f/mldaeavd"  // your unique Formspree endpoint
+            method="POST"
           className='space-y-4'>
             <div>
                 <label htmlFor="email" className='block mb-2 text-xl font-medium text-white'>Email</label>
-                <input type="email" id="email" className='shadow-sm bg-gray-50 border border-gray- text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5
+                <input type="email" id="email" className='shadow-sm bg-gray-50 border border-gray- text-gray-900 text-sm 
+                rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5
                 placeholder="Enter your email" required ' />
             </div>
              <div className='sm:col-span-2'>

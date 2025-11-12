@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from '../navbar/Navbar'
+import Contact2 from '../Contact2.jsx'
 import hi from '../../assets/hi.png'
 import port from '../../assets/port.png'
 
@@ -10,7 +11,8 @@ export default function Hero() {
       from-orange-600 via-yellow-500 to-red-400 absolute  rounded-full transform rotate-12 -top-20 shadow-[0_0_40px_rgb(255,165,0)]'>
 
       </div>
-        <Navbar />    
+        <Navbar />   
+         
 
         <section data-aos='fade-up' 
         data-aos-delay='250'
@@ -44,6 +46,8 @@ export default function Hero() {
             </div>
         </section>
     </div>
+
+  
 
   )
 }

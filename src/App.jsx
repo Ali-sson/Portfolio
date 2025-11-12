@@ -7,7 +7,8 @@ import Skills from "./components/skills/Skills";
 import Experience from "./components/experience/Experience";
 import Languages from "./components/languages/Languages";
 import Projects from "./components/projects/Projects";
-import Contact from "./components/contact/Contact";
+// import Contact from "./components/contact/Contact";
+import Contact2 from "./components/Contact2";
 import Footer from "./components/footer/Footer";
 
 export default function App() {
@@ -21,7 +22,7 @@ export default function App() {
     <Experience />
     <Languages />
     <Projects />
-    <Contact />
+    <Contact2 />
     <Footer />
     </main>
   )
